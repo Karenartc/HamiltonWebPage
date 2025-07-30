@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Refresh content -->
+    <!-- <meta http-equiv="refresh" content="5"> -->
+    <!-- Bootstrap Css -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Css -->
+    <link rel="stylesheet" href="../css/Personajes.css">
+    <!-- Bottstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Font Lora -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+    <!-- Ícono y Título -->
+    <link rel="icon" href="../image/HamiltonIcon.png">
+    <title>Hamilton</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+
+        <!-- Hamburguesa que aparece al cambiar el tamaño de la pantalla -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            
+        <!-- Bótones del Navbar -->
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Hamilton</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="formulario.html">Compra tus Entradas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Personajes.html"  id="pageActual">Personajes</a>
+            </li>
+            </ul>
+        </div>
+        
+        <!-- Botones Inicio de Sesión -->
+        <div class="collapse navbar-collapse ml-auto" id="botonesInicio">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link" id="btnRegistrate">Registrate</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="btnSesion">Inicia Sesión</a>
+                </li>
+            </ul>
+        </div>
+        
+    </nav>  
+    
+    <header>
+
+        <div class="slider-container">
+            <!-- Logo -->
+            <img src="../image/HamiltonIcon.png" alt="Logo Hamilton" id="logo">
+            
+            <!-- IMG -->
+            <img src="../image/ensemble.png" alt="Ensemble de Hamilton" class="d-block w-100" id="ensemble">
+
+            <!-- Título -->
+            <div class="quote-container" id="quote-container">
+                <div class="card col-6 mx-auto mt-3" id="quotebody">
+                    <div class="card-body" >
+                        <blockquote class="blockquote mb-0" id="blockquote">
+                            <p>"Adentrate en esta galería de personajes tan complejos como apasionantes. Cada uno de ellos te transportará a una época de revolución, ambición y sacrificio."
+                            </p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </header>
+
+    <main>
+
+        <article>
+
+            <!-- Table de Personajes -->
+            <section class="personajes-container">
+                <h1>Personajes</h1>
+                <table>
+                    <tr>
+                        <td><a href="#AlexHam">Alexander Hamilton</a></td>
+                        <td><a href="#AaronBurr">Aaron Burr</a></td>
+                        <td><a href="#Eliza">Eliza Schuyler</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#Angelica">Angelica Schuyler</a></td>
+                        <td><a href="#Peggy">Peggy Schuyler</a></td>
+                        <td><a href="#John">John Laurens</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#Lafayette">Marquis de Lafayette</a></td>
+                        <td><a href="#Mulligan">Hercules Mulligan</a></td>
+                        <td><a href="#Washington">George Washington</a></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#III">Rey Jorge III</a></td>
+                        <td><a href="#Philip">Philip Hamilton</a></td>
+                        <td><a href="#Maria">Maria reynolds</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#Jefferson">Thomas Jefferson</a></td>
+                        <td><a href="#Madison">James Madison</a></td>
+                    </tr>
+                </table>
+            </section>
+
+            <!-- Cards de Personajes -->
+            <section>
+
+                <h1 class="h12">Conócelos</h1>
+
+                <div class="card-container">
+
+                    <!-- Alexander Hamilton -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../image/1alexHam.webp" alt="Imagen de Alexander Hamilton" id="AlexHam">
+                        </div>
+                        <div class="card-content">
+                            <h2><a href="https://hamiltonmusical.fandom.com/wiki/Alexander_Hamilton">Alexander Hamilton</a></h2>
+                            <p>Es retratado como un <b>inmigrante</b> audaz y ambicioso que se convierte en uno de los <b>Padres Fundadores</b> de Estados Unidos. Su papel es fundamental en la Revolución Americana. Trabajó en la creación del <b>sistema financiero</b> del país. La interpretación de <b>Lin-Manuel Miranda</b> captura la complejidad y determinación del personaje, dejando una impresión duradera en la audiencia.</p>
+                        </div>
+                    </div>
+
+                    <!-- Aaron Burr -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../image/2Aaron Burr.jpg" alt="Imagen de Aaron Burr" id="AaronBurr">
+                        </div>
+                        <div class="card-content">
+                            <h2><a href="https://hamiltonmusical.fandom.com/wiki/Aaron_Burr">Aaron Burr</a></h2>
+                            <p>Es un personaje central y el <b>antagonista</b> de Alexander Hamilton. Burr es un <b>político astuto</b> y vicepresidente de los Estados unidos durante el período revolucionario, cuya rivalidad con Hamilton culmina en un trágico duelo que cambia el curso de la historia de Estados Unidos. La actuación de <b>Leslie Odom Jr.</b> le valió el premio <b>Tony a Mejor Actor</b> de Reparto en un Musical en 2016.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container">
+
+                    <!-- Eliza Schuyler -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../image/3Eliza.png" alt="Imagen de Eliza Schuyler" id="Eliza">
+                        </div>
+                        <div class="card-content">
+                            <h2><a href="https://hamiltonmusical.fandom.com/wiki/Elizabeth_Schuyler_Hamilton">Eliza Schuyler</a></h2>
+                            <p>Es interpretada por la actriz <b>Phillipa Soo.</b> Eliza es una de las hermanas Schuyler y se convierte en la <b>esposa</b> de Alexander Hamilton. Su personaje se destaca por su <b>inteligencia, determinación.</b></p>
+                        </div>
+                    </div>
+
+                    <!-- Angelica Schuyler -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../image/4Angelica.png" alt="Imagen de Angelica" id="Angelica">
+                        </div>
+                        <div class="card-content">
+                            <h2><a href="https://hamiltonmusical.fandom.com/wiki/Angelica_Schuyler_Church">Angelica Schuyler</a></h2>
+                            <p>Es una <b>inteligente y apasionada</b> hermana de Eliza Schuyler. Es interpretada por la actriz <b>Renée Elise Goldsberry</b>, quien le da vida con su impresionante actuación y poderosa voz, destacando el papel como una <b>figura fuerte y compleja</b> en la historia.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container">
+
+                    <!-- Peggy Schuyler -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../image/5Peggy.avif" alt="Imagen de Peggy Schuyler" id="Peggy">
+                        </div>
+                        <div class="card-content">
+                            <h2><a href="https://hamiltonmusical.fandom.com/wiki/Peggy_Schuyler/Gallery">Peggy Schuyler</a></h2>
+                            <p>Es la <b>hermana menor</b> de las hermanas Schuyler y se presenta como una <b>joven vivaz y encantadora.</b> Es interpretado por <b>Jasmine Cephas Jones.</b> Su papel es breve pero significativo en el desarrollo de la historia, mostrando la vida y relaciones de la familia Schuyler durante la época de la Revolución Americana.</p>
+                        </div>
+                    </div>
+
+                    <!-- John Laurens -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../image/6John-Laurensavif.avif" alt="Imagen de John Laurens" id="John">
+                        </div>
+                        <div class="card-content">
+                            <h2><a href="https://hamiltonmusical.fandom.com/wiki/John_Laurens">John Laurens</a></h2>
+                            <p>Es un <b>revolucionario abolicionista</b> y amigo cercano de Alexander Hamilton. Es interpretado por <b>Anthony Ramos</b> en la producción original de Broadway. Laurens es un personaje apasionado y <b>valiente que lucha por la libertad</b> y los derechos humanos durante la Guerra de Independencia de Estados Unidos.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container">
+
+                    <!-- Marquis de Lafayette -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../image/7Marquis_de_Lafayette.webp" alt="Imagen de Marquis de Lafayette" id="Lafayette">
+                        </div>
+                        <div class="card-content">
+                            <h2><a href="https://hamiltonmusical.fandom.com/wiki/Marquis_de_Lafayette"></a>Marquis de Lafayette</h2>
+                            <p>Es un destacado personaje histórico <b>francés</b> y aliado de Alexander Hamilton durante la Revolución Americana. En la producción original de Broadway, el papel de Lafayette fue interpretado por <b>Daveed Diggs,</b> quien recibió aclamación por su actuación y ganó un <b>premio Tony</b> por el mismo.</p>
+                        </div>
+                    </div>
+
+                    <!-- Hercules Mulligan -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../image/8mulligan.jpg" alt="Imagen de Hercules Mulligan" id="Mulligan">
+                        </div>
+                        <div class="card-content">
+                            <h2><a href="https://hamiltonmusical.fandom.com/wiki/Hercules_Mulligan">Hercules Mulligan</a></h2>
+                            <p>Es un personaje <b>leal y valiente,</b> interpretado por el actor <b>Okieriete Onaodowan.</b> Mulligan es un espía y confidente cercano de Alexander Hamilton, desempeñando un <b>papel crucial</b> en la historia y la lucha por la independencia de Estados Unidos. Su personaje aporta intriga y valentía a la trama del musical.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container">
+
+                    <!-- George Washington -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../image/9washington.jpg" alt="Imagen de Geroge Washington" id="Washington">
+                        </div>
+                        <div class="card-content">
+                            <h2><a href="https://hamiltonmusical.fandom.com/wiki/George_Washington">George Washington</a></h2>
+                            <p>Su personaje representa al influyente <b>líder de la Revolución</b> Americana y el <b>primer presidente</b> de los Estados Unidos, desempeñando un papel crucial en la vida de Alexander Hamilton. La actuación de <b>Christopher Jackson</b> como Washington ha sido ampliamente elogiada por su <b>poderosa presencia y carisma</b> en el escenario.</p>
+                        </div>
+                    </div>
+
+                    <!-- Rey Jorge III -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../image/10ReyJorgeIII.webp" alt="Imagen del Rey jorge III" id="III">
+                        </div>
+                        <div class="card-content">
+                            <h2><a href="https://hamiltonmusical.fandom.com/wiki/King_George_III">Rey Jorge III</a></h2>
+                            <p>Es un personaje histórico y el <b>Rey de Gran Bretaña</b> durante la Revolución Americana. En la producción original de Broadway, el papel de Jorge III fue interpretado por <b>Jonathan Groff.</b> El personaje se destaca por su <b>actitud arrogante y cómica,</b> proporcionando un contraste humorístico en la trama.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container">
+
+                    <!-- Philip Hamilton -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../image/11philip.jpg.png" alt="Imagen de Philip Hamilton" id="Philip">
+                        </div>
+                        <div class="card-content">
+                            <h2><a href="https://hamiltonmusical.fandom.com/wiki/Philip_Hamilton">Philip Hamilton</a></h2>
+                            <p>Es el <b>hijo mayor</b> de Alexander Hamilton y Eliza Schuyler. Es interpretado por <b>Anthony Ramos</b> y representa un papel crucial en la trama, mostrando su <b>relación compleja</b> con su padre y su trágico destino en un duelo.</p>
+                        </div>
+                    </div>
+
+                    <!-- Maria Reynolds -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../image/12mariareynolds.jpg" alt="Imagen de Maria reynolds" id="Maria">
+                        </div>
+                        <div class="card-content">
+                            <h2><a href="https://hamiltonmusical.fandom.com/wiki/Maria_Reynolds">Maria Reynolds</a></h2>
+                            <p>Es un personaje que tiene un <b>affair</b> con Alexander Hamilton. Es interpretada por <b>Jasmine Cephas Jones</b> en la producción original de Broadway. La relación extramatrimonial de Maria con Hamilton se convierte en un <b>escándalo político</b> en la trama.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container">
+
+                    <!-- Thomas Jefferson -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../image/13Daveed-Diggs-as-Thomas-Jefferson-in-Hamilton.webp" alt="Imagen de Thomas Jefferson" id="Jefferson">
+                        </div>
+                        <div class="card-content">
+                            <h2><a href="https://hamiltonmusical.fandom.com/wiki/Thomas_Jefferson">Thomas Jefferson</a></h2>
+                            <p>Es interpretado por <b>Daveed Diggs.</b> Es presentado como un astuto <b>político y escritor,</b> conocido por su elocuencia y papel fundamental en la historia, incluyendo la <b>redacción de la Declaración de Independencia.</b> En la trama, Jefferson representa la complejidad política y rivalidad ideológica de la época.</p>
+                        </div>
+                    </div>
+
+                    <!-- James Madison -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../image/14madison.jpg.png" alt="Imagen de James Madison" id="Madison">
+                        </div>
+                        <div class="card-content">
+                            <h2><a href="https://hamiltonmusical.fandom.com/wiki/James_Madison">James Madison</a></h2>
+                            <p>Es interpretado por <b>Okieriete Onaodowan.</b> Madison es uno de los <b>Padres Fundadores</b> de los Estados Unidos y fue el <b>cuarto presidente del país.</b> En el musical, se le representa como un político astuto y uno de los <b>colaboradores cercanos de Thomas Jefferson</b> y Alexander Hamilton.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </article>
+
+    </main>
+
+    <footer id="mainfooter">
+
+        <div class="container">
+            <div class="footer-content">
+                <img src="../image/HamiltonIcon.png" alt="Logo Hamilton">
+                <ul class="footerlista">
+                    <li>
+                        <a href="../html/index.html">Hamilton</a>
+                    </li>
+                    <li>
+                        <a href="../html/formulario.html">Compra tus entradas</a>
+                    </li>
+                    <li>
+                        <a href="../html/Personajes.html">Personajes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Refresh content -->
+    <!-- <meta http-equiv="refresh" content="5"> -->
+    <!-- Bootstrap Css -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Css -->
+    <link rel="stylesheet" href="../css/formulario.css">
+    <!-- Bottstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Font Lora -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+    <!-- Ícono y Título -->
+    <link rel="icon" href="../image/HamiltonIcon.png">
+    <title>Hamilton</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+
+        <!-- Hamburguesa que aparece al cambiar el tamaño de la pantalla -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            
+        <!-- Bótones del Navbar -->
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Hamilton</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="formulario.html" id="pageActual">Compra tus Entradas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Personajes.html">Personajes</a>
+            </li>
+            </ul>
+        </div>
+        
+        <!-- Botones Inicio de Sesión -->
+        <div class="collapse navbar-collapse ml-auto" id="botonesInicio">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link" id="btnRegistrate">Registrate</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="btnSesion">Inicia Sesión</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>  
+    
+    <header>
+
+        <div class="slider-container">
+            <!-- Logo -->
+            <img src="../image/HamiltonIcon.png" alt="Logo Hamilton" id="logo">
+        </div>
+    </header>
+
+    <main>
+        <form>
+            <div class="container">
+                <div class="row justify-content-center mt-5">
+                    <div class="col-md-8">
+                        <div class="card p-4">
+                            <h3 class="text-center mb-4">Tus Datos</h3>
+                            <hr>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nombre" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="nombre" placeholder="Karen Alejandra" maxlength="30" autofocus required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="apellido" class="form-label">Apellido</label>
+                                    <input type="text" class="form-control" id="apellido" placeholder="Rodriguez Contreras" maxlength="30" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="direccion" class="form-label">Dirección</label>
+                                    <input type="text" class="form-control" id="direccion"  placeholder="Dieciocho 240, Santiago Centro" maxlength="50" required>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col">
+                                        <label for="rut" class="form-label">Rut</label>
+                                        <input type="text" class="form-control" id="rut" placeholder="27814779-7" maxlength="10" required>
+                                    </div>
+                                    <div class="col">
+                                        <label for="telefono" class="form-label">Teléfono</label>
+                                        <input type="tel" class="form-control" id="telefono" placeholder="+56975888420" maxlength="15" required>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col">
+                                        <label for="pais" class="form-label">País de procedencia</label>
+                                        <select class="form-select" id="pais" required>
+                                            <optgroup label="América">
+                                                <option value="" selected>Chile</option>
+                                                <option value="">Colombia</option>
+                                                <option value="">Argentina</option>
+                                                <option value="" disabled>Venezuela</option>
+                                                <option value="">Perú</option>
+                                                <option value="">Mexico</option>
+                                            </optgroup>
+                                            <optgroup label="Europa">
+                                                <option value="">Paris</option>
+                                                <option value="">España</option>
+                                                <option value="">Portugal</option>
+                                            </optgroup>
+                                            <optgroup label="Asia">
+                                                <option value="">Corea del Sur</option>
+                                                <option value="">Japón</option>
+                                                <option value="">China</option>
+                                                <option value="">Tailandia</option>
+                                            </optgroup>
+                                        </select>
+                                    </div>
+                                    <div class="col">
+                                        <label for="entradas" class="form-label">Cantidad de Entradas</label>
+                                        <select class="form-select" id="entradas" required>
+                                            <option value="">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="fechaHora" class="form-label">Fecha y Hora de la Función</label>
+                                    <input type="datetime-local" class="form-control" id="fechaHora" min="2023-10-15 18:30" max="2024-01-15 18:30" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="motivo" class="form-label">¿Por qué quieres ver Hamilton?</label>
+                                    <textarea class="form-control" id="motivo" rows="3" placeholder="Ha sido mi sueño desde que se estreno en Broadway en el 2015." maxlength="100" required></textarea>
+                                </div>
+                                <hr>
+                                <button type="submit" class="btn">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </form>
+    </main>
+
+    <footer id="mainfooter">
+
+        <div class="container">
+            <div class="footer-content">
+                <img src="../image/HamiltonIcon.png" alt="Logo Hamilton">
+                <ul class="footerlista">
+                    <li>
+                        <a href="../html/index.html">Hamilton</a>
+                    </li>
+                    <li>
+                        <a href="../html/formulario.html">Compra tus entradas</a>
+                    </li>
+                    <li>
+                        <a href="../html/Personajes.html">Personajes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+</html>

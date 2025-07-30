@@ -1,0 +1,273 @@
+/* ALL */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY */
+body{
+    background: linear-gradient(to bottom, rgba(177, 142, 55) 0%, rgba(33, 37, 41, 0.3) 100%);
+    background-color: black;
+    font-family: 'Lora', serif;
+}
+
+/* NAVBAR */
+#navbar{
+    background-color: rgb(177, 142, 55);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, .4);
+}
+
+#logo {
+    position: absolute;
+    top: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 7%;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px 0px rgb(0, 0, 0);
+    z-index: 2;
+}
+
+.nav-link{
+    margin-right: 2em;
+    margin-left: 1em;
+    transition: .2s in-ease;
+}
+
+.nav-link:hover{
+    background-color: rgba(165, 112, 60, 0.5);
+    border-radius: 20px;
+    color: black;
+}
+
+.btnSesion{
+    padding: 5px;
+    padding-left: 1em;
+    padding-right: 1em;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 2.5em;
+    background-color: rgb(33, 37, 41);
+    text-decoration: none;
+    color: rgb(177, 142, 55);
+    border-radius: 20px;
+    z-index: 1;
+    transition: .2s ease;
+}
+
+.btnSesion:hover{
+    transform: scale(1.1);
+}
+
+#pageActual{
+    padding: 5px;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 3px;
+    margin-left: 2.5em;
+    background-color: rgb(33, 37, 41);
+    text-decoration: none;
+    color: rgb(177, 142, 55);
+    border-radius: 20px;
+    transition: .2s ease;
+}
+
+#pageActual:hover{
+    transform: scale(1.1);
+}
+
+/* IMG ENSEMBLE */
+#ensemble {
+    border-bottom: 3px solid whitesmoke;
+    margin-bottom: 0;
+    box-shadow: 0px 80px 70px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* QUOTE */
+
+#quote-container {
+    margin-top: 0;
+    position: absolute;
+    top: 67%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px; 
+}
+
+#quotebody #blockquote {
+    text-align: center;
+    border: none; 
+    color: black;
+}
+
+
+
+/* TABLE */
+
+.personajes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    color: rgb(33, 37, 41);
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 1em;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.3);
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: 7%;
+    margin-bottom: .5em;
+}
+
+.personajes-container table {
+    width: 100%;
+    text-align: center;
+}
+
+.personajes-container table td {
+    padding: 2%;
+    width: 33.33%;
+}
+
+.personajes-container table td:hover {
+    border-radius: 20px;
+    background-color:  rgb(177, 142, 55, .2);
+}
+
+.personajes-container table td a {
+    text-decoration: none;
+    color: rgb(33, 37, 41);
+    font-weight: bold;
+}
+
+/* CARDS */
+
+.h12{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: 3.5%;
+    margin-bottom: 1em;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+.card {
+    width: 47%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 1em;
+    margin-bottom: .8em;
+    text-align: center;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card-container .card:hover {
+    transform: translateY(-15px);
+    transition: transform 0.5s ease; 
+}
+
+.card .card-image {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+}
+
+.card .card-image img {
+    width: 100%;
+    height: auto;
+}
+
+.card .card-content {
+    margin-top: 1em;
+}
+
+.card h2 {
+    margin-bottom: 0.5em;
+}
+
+.card p {
+    margin-bottom: 1em;
+}
+
+.card a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover {
+    color: rgb(177, 142, 55);
+}
+
+b {
+    color: rgb(177, 142, 55);
+}
+
+/* FOOTER */
+
+#mainfooter {
+    background-color: rgb(12, 12, 13);
+    border-top: 2px solid rgb(177, 142, 55);
+    color: rgb(177, 142, 55);
+    padding: 2em;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-content img {
+    width: 6em; 
+    margin-right: 2em; 
+}
+
+.footerlista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footerlista li {
+    margin-bottom: 10px;
+}
+
+.footerlista a {
+    color: rgb(177, 142, 55);
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+.footerlista a:hover {
+    color: white; 
+}
+
+.footer-content img:hover{
+    transform: scale(1.1);
+}
+
